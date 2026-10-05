@@ -67,10 +67,43 @@ justify-content: space-between;
 
 }
 
+/* =========================
+LOGO
+========================= */
+
 .logo {
-font-size: 22px;
-font-weight: bold;
+display: flex;
+align-items: center;
+gap: 10px;
+
 color: #0f172a;
+
+font-size: 20px;
+font-weight: bold;
+
+white-space: nowrap;
+
+
+}
+
+.profile-logo {
+width: 42px;
+height: 42px;
+
+border-radius: 50%;
+
+object-fit: cover;
+
+border: 2px solid #2563eb;
+
+
+}
+
+/* Optional hover effect */
+
+.logo:hover .profile-logo {
+transform: scale(1.05);
+transition: 0.2s ease;
 }
 
 .nav-links {
