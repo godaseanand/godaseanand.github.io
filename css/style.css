@@ -476,6 +476,74 @@ CONTACT
 }
 
 /* =========================
+Certifications
+========================= */
+
+.certifications-section {
+    padding: 80px 8%;
+    background: #f8fafc;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-header h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    color: #666;
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.certification-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    transition: 0.3s;
+}
+
+.certification-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.certification-icon {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.certification-content h3 {
+    margin-bottom: 20px;
+}
+
+.certificate-link {
+    color: #6366f1;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.certificate-link:hover {
+    color: #4338ca;
+}
+
+@media (max-width: 768px) {
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* =========================
 FOOTER
 ========================= */
 

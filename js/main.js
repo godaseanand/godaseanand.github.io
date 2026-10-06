@@ -39,3 +39,5 @@ loadSection("skills", "sections/skills.html");
 loadSection("projects", "sections/projects.html");
 
 loadSection("contact", "sections/contact.html");
+
+loadSection("certifications", "sections/certifications.html");
