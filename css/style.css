@@ -478,52 +478,51 @@ CONTACT
 /* =========================
 Certifications
 ========================= */
-
 .certifications-section {
     padding: 80px 8%;
-    background: #f8fafc;
 }
 
-.section-header {
-    text-align: center;
-    margin-bottom: 40px;
+.certifications-container {
+    max-width: 1200px;
+    margin: auto;
 }
 
-.section-header h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-.section-description {
-    color: #666;
+.certifications-label {
+    color: #6366f1;
+    font-weight: 600;
 }
 
 .certifications-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    margin-top: 30px;
 }
 
 .certification-card {
-    background: white;
     padding: 25px;
+    border: 1px solid #ddd;
     border-radius: 12px;
-    border: 1px solid #e5e7eb;
-    transition: 0.3s;
+    background: #fff;
 }
 
-.certification-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+.certification-card h3 {
+    margin-bottom: 10px;
 }
 
-.certification-icon {
-    font-size: 30px;
-    margin-bottom: 15px;
-}
-
-.certification-content h3 {
+.certification-card p {
+    color: #666;
     margin-bottom: 20px;
+}
+
+.certification-card a {
+    color: #6366f1;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.certification-card a:hover {
+    text-decoration: underline;
 }
 
 .certificate-link {
@@ -541,7 +540,6 @@ Certifications
         grid-template-columns: 1fr;
     }
 }
-
 
 /* =========================
 FOOTER
