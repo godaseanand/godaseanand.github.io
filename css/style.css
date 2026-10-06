@@ -2,7 +2,7 @@
 GLOBAL
 ========================= */
 
-    {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -478,14 +478,6 @@ CONTACT
 /* =========================
 Certifications
 ========================= */
-.certifications-section {
-    padding: 80px 8%;
-}
-
-.certifications-container {
-    max-width: 1200px;
-    margin: auto;
-}
 
 .certifications-label {
     color: #6366f1;
@@ -533,12 +525,6 @@ Certifications
 
 .certificate-link:hover {
     color: #4338ca;
-}
-
-@media (max-width: 768px) {
-    .certifications-grid {
-        grid-template-columns: 1fr;
-    }
 }
 
 /* =========================
