@@ -527,6 +527,24 @@ Certifications
     color: #4338ca;
 }
 
+.certification-company {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.certification-company img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.certification-company span {
+    font-size: 14px;
+    color: #666;
+}
+
 /* =========================
 FOOTER
 ========================= */
